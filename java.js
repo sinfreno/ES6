@@ -82,4 +82,13 @@ const reducer = (accumulator, currentValue) => accumulator + ' ' + currentValue;
 console.log(epic.reduce(reducer));
 
 
+//  Ejercicio 4
+
+let reversed = (words) => {
+    let gnirts = [...words];
+    let word = gnirts.reverse();
+    console.log(word.join(''));
+}
+
+
 
