@@ -90,5 +90,34 @@ let reversed = (words) => {
     console.log(word.join(''));
 }
 
+// Ejercicio 5
+
+// function b() {
+//     // ...
+//  }
+//  funtion a() {
+//     b().then() = > {
+//     doMoreWork();
+//     }
+//  }
+
+function b() {
+    return new Promise(resolve => {
+      setTimeout(() => {
+        resolve();
+      }, 3000);
+    });
+  }
+
+ async function a(frase) {
+    await b();
+    doMoreWork(frase);
+  }
+
+function doMoreWork(c) {
+    console.log(c);
+}
 
 
+
+ 
