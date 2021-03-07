@@ -118,6 +118,31 @@ function doMoreWork(c) {
     console.log(c);
 }
 
+// Ejercicio 6
+
+var tasks = [
+    {
+       'name' : 'Start React web',
+       'duration' : 120
+    },
+    {
+       'name' : 'Work out',
+       'duration' : 60
+    },
+    {
+       'name' : 'Procrastinate on facebook',
+       'duration' : 240
+    }
+    ];
+
+let tareas = [];
+tasks.forEach(nombres);
+
+function nombres(item) {
+    tareas.push(item.name);
+}
+
+console.log(tareas);
 
 
  
