@@ -73,3 +73,13 @@ let power = (base, exponent) => {
  }
 
 console.log(users.map(firstName));
+
+// Ejercicio 3
+
+
+var epic = ['a', 'long', 'time', 'ago', 'in a', 'galaxy', 'far far', 'away'];
+const reducer = (accumulator, currentValue) => accumulator + ' ' + currentValue;
+console.log(epic.reduce(reducer));
+
+
+
