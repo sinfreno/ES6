@@ -53,3 +53,23 @@ let power = (base, exponent) => {
 //  }
 
  let greet = who => console.log("Hello " + who);
+
+//  Ejercicio 2
+
+// users.map(function (user) {
+//     user.firstName;
+//  });
+ 
+ var users = 
+ [{ firstName: 'Homer', lastName: 'Simpson' },
+ { firstName: 'Marge', lastName: 'Simpson' },
+ { firstName: 'Bart', lastName: 'Simpson' },
+ { firstName: 'Lisa', lastName: 'Simpson' },
+ { firstName: 'Maggie', lastName: 'Simpson' }];
+
+ let firstName = (name) => {
+     firstName = [name.firstName];
+        return firstName;
+ }
+
+console.log(users.map(firstName));
