@@ -135,8 +135,12 @@ var tasks = [
     }
     ];
 
+let mapa = tasks.map(function(x){
+  return x;
+});
+
 let tareas = [];
-tasks.forEach(nombres);
+mapa.forEach(nombres);
 
 function nombres(item) {
     tareas.push(item.name);
