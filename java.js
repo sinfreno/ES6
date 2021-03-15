@@ -135,18 +135,18 @@ var tasks = [
     }
     ];
 
-let mapa = tasks.map(function(x){
-  return x;
-});
+
+let mapa = tasks.map(x => x.name);
 
 let tareas = [];
-mapa.forEach(nombres);
+tasks.forEach(nombres);
 
 function nombres(item) {
     tareas.push(item.name);
 }
 
 console.log(tareas);
+console.log(mapa);
 
 
  
